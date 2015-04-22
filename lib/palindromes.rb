@@ -1,5 +1,5 @@
 class String
-  define_method(:palindrome) do
+  define_method(:palindromes) do
     word = self
     reversed_word = word.reverse()
     if word.eql?(reversed_word)
